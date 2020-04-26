@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3101fb7117203b5ef23ce9d3934ea853",
+    "revision": "27d7167664f4632a76cca55877c684d6",
     "url": "/reacthooks-calc/index.html"
   },
   {
-    "revision": "c2b3b5db4f9861d1bab6",
-    "url": "/reacthooks-calc/static/css/main.86c4ea4f.chunk.css"
+    "revision": "3fe832d4f77156ea6283",
+    "url": "/reacthooks-calc/static/css/main.cba1ba08.chunk.css"
   },
   {
     "revision": "9848d2dc6c152e87b4c7",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reacthooks-calc/static/js/2.22b7a3ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c2b3b5db4f9861d1bab6",
+    "revision": "3fe832d4f77156ea6283",
     "url": "/reacthooks-calc/static/js/main.60bf8a0e.chunk.js"
   },
   {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reacthooks-calc/static/css/main.86c4ea4f.chunk.css",
+    "main.css": "/reacthooks-calc/static/css/main.cba1ba08.chunk.css",
     "main.js": "/reacthooks-calc/static/js/main.60bf8a0e.chunk.js",
     "main.js.map": "/reacthooks-calc/static/js/main.60bf8a0e.chunk.js.map",
     "runtime-main.js": "/reacthooks-calc/static/js/runtime-main.c49b4d3c.js",
@@ -8,15 +8,15 @@
     "static/js/2.22b7a3ed.chunk.js": "/reacthooks-calc/static/js/2.22b7a3ed.chunk.js",
     "static/js/2.22b7a3ed.chunk.js.map": "/reacthooks-calc/static/js/2.22b7a3ed.chunk.js.map",
     "index.html": "/reacthooks-calc/index.html",
-    "precache-manifest.a23d2204d358ca942c147bb2d3565002.js": "/reacthooks-calc/precache-manifest.a23d2204d358ca942c147bb2d3565002.js",
+    "precache-manifest.893b9929da2af892faae3a2e66dc496c.js": "/reacthooks-calc/precache-manifest.893b9929da2af892faae3a2e66dc496c.js",
     "service-worker.js": "/reacthooks-calc/service-worker.js",
-    "static/css/main.86c4ea4f.chunk.css.map": "/reacthooks-calc/static/css/main.86c4ea4f.chunk.css.map",
+    "static/css/main.cba1ba08.chunk.css.map": "/reacthooks-calc/static/css/main.cba1ba08.chunk.css.map",
     "static/js/2.22b7a3ed.chunk.js.LICENSE.txt": "/reacthooks-calc/static/js/2.22b7a3ed.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c49b4d3c.js",
     "static/js/2.22b7a3ed.chunk.js",
-    "static/css/main.86c4ea4f.chunk.css",
+    "static/css/main.cba1ba08.chunk.css",
     "static/js/main.60bf8a0e.chunk.js"
   ]
 }
