@@ -4,6 +4,7 @@ import ExpenseList from './components/ExpenseList';
 import ExpenseForm from './components/ExpenseForm';
 import Alert from './components/Alert';
 import { v4 as uuidv4 } from 'uuid';
+import HomeAlert from './components/HomeAlert';
 
 // const initialExpenses = [
 //   {id: uuidv4(), charge: 'rent', amount: 1600},
@@ -30,27 +31,28 @@ function App() {
   const [edit, setEdit] = useState(false)
   // edit item
   const [id, setId] = useState(0)
+  // home alert
+  const [homeAlert, setHomeAlert] = useState(true)
   // ***************** USE EFFECT *****************
   useEffect(() => {
-    console.log('we called useEffect')
     localStorage.setItem('expenses', JSON.stringify(expenses))
   }, [expenses])
   // ***************** FUNCTIONALITY *****************
 
-  //handle charge
+  // handle charge
   const handleCharge = e => {
     setCharge(e.target.value)
   }
 
-  //handle amount
+  // handle amount
   const handleAmount = e => {
     setAmount(e.target.value)
   }
 
-  //handle alert
+  // handle alert
   const handleAlert = ({type, text}) => {
     setAlert({show: true, type, text})
-    setTimeout(() => {
+     let timer = setTimeout(() => {
       setAlert({show: false})
     }, 3000)
   }
@@ -85,7 +87,7 @@ function App() {
     handleAlert({type: 'danger', text: 'all items deleted'})
   }
   
-  //handle delete
+  // handle delete
   const handleDelete = (id) => {
     let tempExpenses = expenses.filter
       (item => item.id !== id)
@@ -94,7 +96,7 @@ function App() {
     handleAlert({type: 'danger', text: 'item deleted'})
   }
 
-  //handle edit
+  // handle edit
   const handleEdit = (id) => {
     let expense = expenses.find(
       (item) => item.id === id)
@@ -107,8 +109,17 @@ function App() {
     setId(id)
   }
 
+  // handle home alert
+  const handleHomeAlert = () => {
+    setHomeAlert(false)
+  }
+
   return (
     <>
+    <HomeAlert 
+    homeAlert={homeAlert}
+    handleHomeAlert={handleHomeAlert}
+    />
     {alert.show && 
     <Alert 
     type={alert.type}

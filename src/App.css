@@ -185,3 +185,29 @@ label {
     flex: 0 0 50%;
   }
 }
+/* HOME ALERT */
+.homealert {
+  padding: 12px;
+  background-color: orange;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.closebtnhome {
+  margin-left: 15px;
+  color: red;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.closebtnhome:hover {
+  color: black;
+}
+.hideAlert {
+  display: none;
+}
