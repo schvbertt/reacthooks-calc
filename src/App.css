@@ -194,6 +194,7 @@ label {
   bottom: 0;
   text-align: center;
   width: 100%;
+  z-index: 100;
 }
 .closebtnhome {
   margin-left: 15px;
